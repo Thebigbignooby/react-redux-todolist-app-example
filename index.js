@@ -14,11 +14,21 @@ const counter = (state = 0, action) => {
 
 let store = createStore(counter)
 
-store.subscribe(() => console.log(store.getState()))
+const elCounter = document.getElementById('counter')
+const elIncrement = document.getElementById('increment')
+const elDecrement = document.getElementById('decrement')
 
-store.dispatch({ type: 'INCREMENT' })
-// 1
-store.dispatch({ type: 'INCREMENT' })
-// 2
-store.dispatch({ type: 'DECREMENT' })
-// 1
+const render = () => {
+  elCounter.innerText = store.getState()
+}
+
+store.subscribe(render)
+render()
+
+elIncrement.addEventListener('click', () => {
+  store.dispatch({ type: 'INCREMENT' })
+})
+
+elDecrement.addEventListener('click', () => {
+  store.dispatch({ type: 'DECREMENT' })
+})
