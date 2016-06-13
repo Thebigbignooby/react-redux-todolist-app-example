@@ -1,7 +1,7 @@
 const expect = require('expect')
 const deepFreeze = require('deep-freeze')
 
-import { todos } from '../reducers/reducers'
+import todos from '../reducers/todos'
 
 describe('todos reducer', function () {
   it('should testAddTodo', function () {
@@ -35,7 +35,7 @@ const testAddTodo = () => {
   ).toEqual(stateAfter)
 }
 
- const testToggleTodo = () => {
+const testToggleTodo = () => {
   let stateBefore = [
     {
       id: 0,
