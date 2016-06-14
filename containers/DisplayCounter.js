@@ -1,14 +1,5 @@
-// import React from 'react'
 import Display from '../components/Display'
 import { connect } from 'react-redux'
-
-// let DisplayCounter = ({counter}) => {
-//   return (
-//     <div>
-//       <Display counter={counter} />
-//     </div>
-//   )
-// }
 
 const mapStateToProps = (state) => {
   return {

@@ -6,8 +6,8 @@ const Display = ({counter}) => {
   )
 }
 
-// Display.propTypes = {
-//   onClick: PropTypes.number.isRequired
-// }
+Display.propTypes = {
+  onClick: PropTypes.number.isRequired
+}
 
 export default Display

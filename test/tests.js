@@ -2,6 +2,8 @@ const expect = require('expect')
 const deepFreeze = require('deep-freeze')
 
 import todos from '../reducers/todos'
+import visibilityFilter from '../reducers/visibilityFilter'
+import { setVisibilityFilter } from '../actions'
 
 describe('todos reducer', function () {
   it('should testAddTodo', function () {
