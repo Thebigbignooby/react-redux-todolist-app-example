@@ -11,9 +11,9 @@ Desired result is ambitious for a beginner in React & Redux, I want to turn a To
 - [x] Configure Babel and Webpack to have object-rest-spread syntax work
 - [x] Working tests with Mocha, Expect and deepFreeze
 - [x] Simple To Do App with Redux & React
-  - [ ] Seperate counter app example into different repo
-  - [ ] Host working example on GitHub Pages
-  - [ ] Add check-boxes to mark item as done
+  - [x] Seperate counter app example into different repo
+  - [x] Host working example on GitHub Pages
+  - [x] Add check-boxes to mark item as done
 - [ ] Add Urgent and Important tag options to tasks
 - [ ] Next Step = Eisenhower diagram based importance/urgence of tasks
 - [ ] Build process for deployment to GH-pages or Surge.sh
