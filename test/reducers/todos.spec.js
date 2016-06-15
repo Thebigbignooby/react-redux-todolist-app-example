@@ -1,20 +1,9 @@
 const expect = require('expect')
 const deepFreeze = require('deep-freeze')
 
-import todos from '../reducers/todos'
-import visibilityFilter from '../reducers/visibilityFilter'
-import { setVisibilityFilter } from '../actions'
+import todos from '../../reducers/todos'
 
-describe('todos reducer', function () {
-  it('should testAddTodo', function () {
-    testAddTodo()
-  })
-  it('should testToggleTodo', function () {
-    testToggleTodo()
-  })
-})
-
-const testAddTodo = () => {
+export const testAddTodo = () => {
   const stateBefore = []
   const action = {
     type: 'ADD_TODO',
@@ -37,7 +26,7 @@ const testAddTodo = () => {
   ).toEqual(stateAfter)
 }
 
-const testToggleTodo = () => {
+export const testToggleTodo = () => {
   let stateBefore = [
     {
       id: 0,

@@ -21,18 +21,6 @@ export const setVisibilityFilter = (filter) => {
   }
 }
 
-export const increment = () => {
-  return {
-    type: 'INCREMENT'
-  }
-}
-
-export const decrement = () => {
-  return {
-    type: 'DECREMENT'
-  }
-}
-
 export const tagTodoUrgent = (id) => {
   return {
     type: 'TAG_TODO_URGENT',
