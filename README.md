@@ -1,5 +1,7 @@
-React ToDo App
-==============
+React & Redux TodoList App Example
+==================================
+
+demo : 
 
 I'm learning slowly how to use Redux and then React.
 
