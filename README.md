@@ -1,7 +1,7 @@
 React & Redux TodoList App Example
 ==================================
 
-demo : 
+demo : http://thebigbignooby.github.io/react-redux-todolist-app-example/
 
 I'm learning slowly how to use Redux and then React.
 
